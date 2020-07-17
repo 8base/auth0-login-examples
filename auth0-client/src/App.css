@@ -1,0 +1,13 @@
+.view {
+  display: flex;
+  max-width: 50%;
+  margin: 50px auto;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul {
+  max-width: 100%;
+  line-break: anywhere;
+}

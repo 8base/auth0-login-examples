@@ -1,0 +1,6 @@
+functions:
+  userForgotPassword:
+    type: resolver
+    handler:
+      code: src/resolvers/userForgotPassword/handler.js
+    schema: src/resolvers/userForgotPassword/schema.graphql

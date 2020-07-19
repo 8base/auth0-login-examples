@@ -27,7 +27,7 @@ export default class GraphqlApiAuth extends React.Component {
       form: {
         email: '',
         password: '',
-        authProfileId: 'ckcntfgqy00ko08ib780ha5vw'
+        authProfileId: '<8BASE_AUTH_PROFILE_ID>'
       },
       /* Component specific attributes */
       show: 'login',

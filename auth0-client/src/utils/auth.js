@@ -6,8 +6,8 @@ export default Auth.createClient(
     strategy: AUTH_STRATEGIES.WEB_AUTH0
   },
   {
-    domain: 'dev-onq6cq26.auth0.com',
-    clientId: 'AIsXjUCfS0A7jzPfRJaSsQ84B08eIhUy',
+    domain: '<AUTH0_DOMAIN>',
+    clientId: '<AUTH0_CLIENT_ID>',
     redirectUri: `${window.location.origin}/auth/callback`,
     logoutRedirectUri: `${window.location.origin}/logout`
   }

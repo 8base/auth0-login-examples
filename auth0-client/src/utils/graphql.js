@@ -1,5 +1,6 @@
 import gql from 'graphql-tag'
 
+/* Login the user with email and password */
 export const LOGIN_MUTATION = gql`
   mutation($email: String!, $password: String!, $authProfileId: ID!) {
     userLogin(
@@ -17,6 +18,7 @@ export const LOGIN_MUTATION = gql`
   }
 `
 
+/* Sign up the user with email and password */
 export const SIGNUP_MUTATION = gql`
   mutation($email: String!, $password: String!, $authProfileId: ID!) {
     userSignUpWithPassword(
@@ -30,6 +32,8 @@ export const SIGNUP_MUTATION = gql`
     }
   }
 `
+
+/* Send user password reset email */
 export const FORGOT_PASSWORD_MUTATION = gql`
   mutation($email: String!) {
     userForgotPassword(email: $email) {
